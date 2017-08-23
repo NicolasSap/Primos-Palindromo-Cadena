@@ -5,6 +5,9 @@ public class Palindromo {
 	private StringBuilder string1;
 	private StringBuilder stringInv;
 
+	/** La complejidad es N, debido al reverse.
+	 */
+	
 	public Palindromo(final StringBuilder dato) {
 		this.stringg = dato;
 		string1 = new StringBuilder(stringg.substring(0, stringg.length()/2));

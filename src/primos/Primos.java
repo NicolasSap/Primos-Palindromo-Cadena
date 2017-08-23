@@ -5,6 +5,9 @@ public class Primos {
 	private int tope;
 	private boolean[] resul;
 	
+	/** La complejidad es N log log N.
+	 */
+	
 	public Primos(final int piso, final int tope) {
 		this.piso = piso;
 		this.tope = tope;

@@ -7,6 +7,9 @@ public class Stringg {
 	private ArrayList<ObjString> resul = new ArrayList<ObjString>();
 	private ArrayList<Character> aux = new ArrayList<Character>();
 	
+	/** La complejidad es N, debido al uso del for.
+	 */
+	
 	public Stringg(final StringBuilder dato) {
 		this.stringg = dato;
 	}
